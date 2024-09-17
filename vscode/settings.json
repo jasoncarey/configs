@@ -1,0 +1,83 @@
+{
+  "animations.Install-Method": "Apc Customize UI++",
+  "window.titleBarStyle": "native",
+  "apc.imports": [
+      "file:///Users/jason/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
+  ],
+  "apc.electron": {
+      "frame": false,
+      "transparent": true,
+      "titleBarStyle": "hiddenInset",
+      "vibrancy": "ultra-dark",
+      "opacity": 1.0,
+      "visualEffectState": "active",
+      "trafficLightPosition": {
+          "x": 17,
+          "y": 12
+      },
+      "hasShadow": false
+  },
+  "apc.stylesheet": {
+      ".actions-container.highlight-toggled": "display: none !important;", // hides the action buttons on right
+      ".Monaco-breadcrumb-item": "display: none !important;", // Hides the breadcrumb that shows file path, method names you are on, etc
+      ".editor .title": "background: transparent !important;",
+      ".editor .title .label-container": "visibility: hidden;",
+      ".editor .scrollbar .slider": "visibility: hidden",
+      ".editor .scrollbar:hover .slider": "visibility: initial",
+      ".monaco-editor .scroll-decoration": "visibility: hidden",
+      ".monaco-scrollable-element>.shadow.top": "visibility: hidden",
+      ".inline-no-tabs-placeholder": "background: transparent !important;"
+  },
+  // vibrancy requires other panels to be transparent
+  // see https://code.visualstudio.com/api/references/theme-color
+  "workbench.colorTheme": "poimandres",
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+  },
+  // "workbench.colorCustomizations": {
+  //     "statusBar.background": "#0b0c0f",
+  //     "statusBar.noFolderBackground": "#0b0c0f",
+  //     "statusBar.debuggingBackground": "#0b0c0f"
+  // },
+  "editor.formatOnSave": true,
+  "prettier.requireConfig": true,
+  "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "github.copilot.editor.enableCodeActions": false,
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.fontFamily": "'MesloLGS NF'",
+  "editor.fontFamily": "MesloLGS NF",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
+  "editor.lineHeight": 20,
+  "explorer.confirmDelete": false,
+  "git.suggestSmartCommit": false,
+  "github.copilot.enable": {
+      "*": false,
+      "plaintext": false, 
+      "markdown": false,
+      "scminput": false
+  },
+  "workbench.fontAliasing": "antialiased",
+  "window.zoomLevel": 0.8,
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "right",
+  "supermaven.enable": {
+      "*": false,
+      "python": true
+  },
+  "supermaven.otherWarning": false,
+  "[markdown]": {
+      "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "editor.semanticHighlighting.enabled": true,
+  "editor.semanticTokenColorCustomizations": { "enabled": true },
+  "editor.tabSize": 2,
+  "editor.smoothScrolling": true,
+  //"[python]": {
+  //    "editor.showUnused": false,
+  //},
+}
