@@ -1,0 +1,4 @@
+theme = catppuccin-mocha
+font-family = "Geist Mono"
+font-feature = -liga
+font-size = 13
